@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 16px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    margin: 200px auto;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    border-radius: 30px;
+}
+
+.your-result{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    width: 320px;
+    border-radius: 30px;
+}
+
+.your-result > h2{
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 35px;
+}
+
+.your-result .score{
+    padding: 40px;
+    background-image: linear-gradient(hsla(241, 72%, 46%, 1), hsla(256, 72%, 46%, 1));
+    width: 178.67px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.your-result .score > h1{
+    color: white;
+    font-size: 60px;
+}
+
+.your-result .score > p{
+    color: hsl(241, 100%, 89%);
+}
+
+.your-result > h1{
+    color: white;
+    padding: 30px 0px 15px 0px;
+}
+
+.your-result > p{
+    font-size: 15px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: hsl(241, 100%, 89%);
+}
+
+.summary{
+    width: 320px;
+    padding: 35px;
+}
+
+.summary > h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.summary .grades{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: wheat;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.summary .grades .name-grade{
+    display: flex;
+}
+
+.summary .grades img{
+    display: block;
+    margin-right: 10px;
+}
+
+.summary .grades > p{
+    color: hsla(224, 30%, 27%, 0.368);
+}
+
+.summary .grades > p > strong{
+    color: black;
+}
+
+.summary .reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.summary .memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.summary .verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.05);
+}
+
+.summary .visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+.summary > a{
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
